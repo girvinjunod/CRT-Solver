@@ -1,6 +1,6 @@
 # Seleksi IRK Task Chinese Remainder Solver Girvin Junod 13519096
 ## Deskripsi
-Aplikasi web solver untuk Chinese Remainder Theorem(CRT) ini dibuat menggunakan React JS untuk frontend dan Express untuk backend. Aplikasi dapat menerima input berupa sistem kekongruenan linear yang ingin dipecahkan melalui CRT. Input berupa pembagi dan sisa untuk tiap kekongruenan dan jumlah kekongruenan yang diinput dibebaskan ke user. Aplikasi ini dideploy melalui Azure pada link yang tertera di bawah. CI/CD untuk website ini menggunakan github Actions melalui CI/CD yang ada dari Azure.
+Aplikasi web solver untuk Chinese Remainder Theorem(CRT) ini dibuat menggunakan React JS untuk frontend dan Express untuk backend. Aplikasi dapat menerima input berupa sistem kekongruenan linear yang ingin dipecahkan melalui CRT. Input berupa pembagi dan sisa untuk tiap kekongruenan dan jumlah kekongruenan yang diinput dibebaskan ke user. Aplikasi dapat menampilkan jawaban dari CRT beserta langkah-langkah penyelesaian. Aplikasi ini dideploy melalui Azure pada link yang tertera di bawah. CI/CD untuk website ini menggunakan github Actions melalui CI/CD yang ada dari Azure.
 
 ## Dependencies
 - Nodejs, install dari https://nodejs.org/en/. Cek apakah sudah terinstall dengan `node -v` dan `npm -v`. Pastikan npm sudah versi latest dengan `npm install npm@latest -g`
@@ -31,7 +31,7 @@ Aplikasi web solver untuk Chinese Remainder Theorem(CRT) ini dibuat menggunakan 
 3. Ulangi langkah 1 dan 2 sampai sistem kekongruenan linear sesuai keinginan
 4. Untuk menghapus kekongruenan dari sistem kekongruenan linear, tekan simbol 'X' yang ada di samping kekongruenan
 5. Untuk mendapatkan jawaban CRT dari sistem kekongruenan linear, tekan tombol ``Jawaban``
-6. Jawaban dapat dilihat di bagian bawah web site beserta metode penyelesaiannya
+6. Jawaban dapat dilihat di bagian bawah web site beserta metode dan langkah-langkah penyelesaiannya
 7. Untuk menggunakan lagi, dapat mengubah sistem kekongruean linear yang ada dan menekan lagi tombol ``Jawaban``
 
 ## CI/CD
