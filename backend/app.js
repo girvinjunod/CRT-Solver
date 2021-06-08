@@ -14,7 +14,7 @@ function pbb(a,b){
 function cek(pembagi){
     for (var i = 0; i<pembagi.length;i++){
         for (var j = 0; j<pembagi.length;j++){
-            if (i !== j && pembagi[i] !== pembagi[j]){
+            if (i !== j){
                 var tes = pbb(pembagi[i], pembagi[j]);
                 if (tes !== 1){
                     return false;
