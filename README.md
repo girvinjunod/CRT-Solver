@@ -4,7 +4,7 @@ Aplikasi web solver untuk Chinese Remainder Theorem(CRT) ini dibuat menggunakan 
 
 ## Dependencies
 - Nodejs, install dari https://nodejs.org/en/. Cek apakah sudah terinstall dengan `node -v` dan `npm -v`. Pastikan npm sudah versi latest dengan `npm install npm@latest -g`
-- Dependencies lain dapat di-install dengan `yarn install` atau `npm install` saat berada di directory frontend(folder crtsolver) dan backend
+- Dependencies lain (seperti React JS) dapat di-install dengan `npm install` saat berada di directory frontend (folder crtsolver) dan backend
 
 ## How to Run
 
