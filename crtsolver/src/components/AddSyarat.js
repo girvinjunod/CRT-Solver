@@ -14,8 +14,8 @@ const AddSyarat = ({onAdd}) => {
         let p = parseInt(pembagi);
         let s = parseInt(sisa);
 
-        if (p <= 0){
-            alert("Pembagi harus lebih besar dari 0");
+        if (p <= 1){
+            alert("Pembagi harus lebih besar dari 1");
             return;
         }
         if (s < 0){
