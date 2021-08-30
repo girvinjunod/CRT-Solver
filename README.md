@@ -1,4 +1,4 @@
-# Seleksi IRK Task Chinese Remainder Solver Girvin Junod 13519096
+# Chinese Remainder Theorem Solver Girvin Junod 13519096
 ## Deskripsi
 Aplikasi web solver untuk Chinese Remainder Theorem(CRT) ini dibuat menggunakan React JS untuk frontend dan Express untuk backend. Aplikasi dapat menerima input berupa sistem kekongruenan linear yang ingin dipecahkan melalui CRT. Input berupa pembagi dan sisa untuk tiap kekongruenan dan jumlah kekongruenan yang diinput dibebaskan ke user. Aplikasi dapat menampilkan jawaban dari CRT beserta langkah-langkah penyelesaian. Aplikasi ini dideploy melalui Azure pada link "https://witty-ocean-0116c780f.azurestaticapps.net/". CI/CD untuk website ini menggunakan github Actions melalui CI/CD yang ada dari Azure.
 
